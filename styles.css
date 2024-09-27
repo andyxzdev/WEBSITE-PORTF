@@ -1,0 +1,2100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    background-color: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+}
+
+.logo-header {
+    margin-top: 35px;
+}
+
+ul,
+li {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+a {
+    color: #fff;
+    transition: .5s;
+}
+
+a:hover {
+    border-bottom: 2px solid #e20505;
+}
+
+
+.languajes {
+    width: 100%;
+    gap: 40px;
+}
+
+.butt-lang {
+    height: 24px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.button-header {
+    background-color: #e20505;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    font-weight: bold;
+}
+
+.button-header:hover {
+    background-color: #000;
+    transform: scale(1.0);
+    border: 2px solid #e20505;
+    border-radius: 2px;
+}
+
+section .home {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+}
+
+.infos-home {
+    align-items: center;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 180px;
+    position: absolute;
+}
+
+.infos-home h1 {
+    font-size: 80px;
+}
+
+.infos-home span {
+    color: #e20505;
+}
+
+.infos-home button {
+    background-color: #e20505;
+    width: 290px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.infos-home button:hover {
+    background-color: #000;
+    transform: scale(1.0);
+    border: 2px solid #e20505;
+    border-radius: 2px;
+}
+
+.redes-sociais-home {
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.redes-sociais-home i {
+    transition: .4s;
+}
+
+.redes-sociais-home i:hover {
+    border: none;
+    color: #e20505;
+}
+
+.redes-sociais-home a:hover {
+    border: none;
+    color: #e20505;
+}
+
+#insta:hover {
+    color: #ff00b3;
+}
+
+#tiktok:hover {
+    color: #00eeff;
+}
+
+#face:hover {
+    color: #003cff;
+}
+
+#linkedin:hover {
+    color: #008cff;
+}
+
+#youtube:hover {
+    color: #e20505;
+}
+
+section .img-home {
+    display: flex;
+    z-index: -1;
+    margin-top: -10px;
+    margin-left: 14vw;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 130px;
+
+}
+
+.divider-esq {
+    background-color: #e20505;
+    width: 340px;
+    height: 2px;
+    gap: 2px;
+}
+
+.divider-dir {
+    background-color: #e20505;
+    width: 340px;
+    height: 2px;
+    gap: 42px;
+}
+
+.propos {
+    width: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    align-items: center;
+    background-image: url('assets/arts/artss.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.text {
+    margin-left: 10vw;
+
+}
+
+.text p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.text h1 {
+    color: #e20505;
+    font-size: 50px;
+}
+
+.p1 {
+    margin-top: 50px;
+}
+
+.p2 {
+    margin-top: 20px;
+}
+
+.p3 {
+    margin-top: 20px;
+}
+
+.video-home {
+    width: 290px;
+    height: 530px;
+    display: flex;
+    margin-right: 14vw;
+    margin-top: 10vh;
+}
+
+.loffre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 180vh;
+    margin-top: 140px;
+}
+
+.loffre h1 {
+    font-size: 60px;
+    color: #e20505;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.card1 i {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.card1 {
+    width: 20vw;
+    height: 240px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 0px;
+}
+
+.card1 h3 {
+    font-size: 20px;
+    color: #e20505;
+    margin-top: 10px;
+}
+
+.card1 p {
+    margin-top: 15px;
+    margin-left: 45px;
+    text-align: start;
+}
+
+.card2 i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.card2 {
+
+    width: 20vw;
+    height: 240px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 10px;
+}
+
+.card2 h3 {
+    font-size: 20px;
+    color: #e20505;
+    margin-top: 10px;
+
+}
+
+.card2 p {
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+
+.card3 i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.card3 {
+    width: 20vw;
+    height: 240px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 0px;
+}
+
+.card3 h3 {
+    font-size: 20px;
+    color: #e20505;
+    margin-top: 10px;
+}
+
+.card3 p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card4 i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.card4 {
+    width: 20vw;
+    height: 240px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 0px;
+}
+
+.card4 h3 {
+    font-size: 20px;
+    color: #e20505;
+    margin-top: 10px;
+}
+
+.card4 p {
+    margin-top: 15px;
+    margin-left: 45px;
+    text-align: start;
+}
+
+.arts {
+    width: 100%;
+    height: auto;
+    margin-top: 210px;
+    margin-left: 35vw;
+    gap: 90px;
+}
+
+
+.motions {
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-left: 19.2vw;
+    margin-top: -88vh;
+}
+
+.name-video {
+    font-size: 50px;
+    color: #db0303;
+    position: absolute;
+    margin-top: -100vh;
+    margin-left: 20vw;
+    text-align: center;
+    line-height: 30px;
+}
+
+.name-video span {
+    color: #fff;
+    font-size: 23px;
+}
+
+.name-video2 {
+    font-size: 50px;
+    color: #db0303;
+    position: absolute;
+    margin-top: -125vh;
+    margin-left: 20vw;
+    text-align: center;
+    line-height: 30px;
+}
+
+.name-video2 span {
+    color: #fff;
+    font-size: 23px;
+}
+
+#motions4 {
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-left: 19.2vw;
+    margin-top: -112vh;
+}
+
+
+#banner2 {
+    margin-top: -650px;
+    margin-left: 33vw;
+    width: 100%;
+}
+
+
+.loffre button {
+    background-color: #e20505;
+    width: 490px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: .4s;
+    font-weight: bold;
+    margin-top: 155vh;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+
+.loffre button:hover {
+    transform: scale(1.1);
+    background-color: #000;
+    color: #e20505;
+    border: 2px solid #ffffff;
+    border-radius: 45px;
+}
+
+.loffre a:hover {
+    border: none;
+}
+
+.loffre button i {
+    font-size: 32px;
+}
+
+/* -----------   ANIMATIONS JS */
+
+.arts.active {
+    transform: translateX(0);
+    transition: .5s;
+    opacity: 1;
+    z-index: 1;
+}
+
+.arts {
+    transform: translateX(-60em);
+    transition: .5s;
+    opacity: 0;
+}
+
+
+
+
+/* -----------   ANIMATIONS JS end */
+
+
+
+
+
+
+#nextButton {
+    width: 130px;
+    height: 70px;
+    margin-left: 80vw;
+    margin-top: 98vh;
+    border: none;
+    background-color: #db0303;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 1;
+
+}
+
+#nextButton:hover {
+    background-color: #000;
+    border: 2px solid #db0303;
+}
+
+#nextButton i {
+    color: #ffffff;
+    font-size: 60px;
+    transition: .4s;
+}
+
+#nextButton i:hover {
+    transform: scale(1.1);
+    background-color: #000;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#prevButton {
+    width: 130px;
+    height: 70px;
+    margin-left: -80vw;
+    margin-top: 98vh;
+    border: none;
+    background-color: #db0303;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 1;
+}
+
+#prevButton:hover {
+    background-color: #000;
+    border: 2px solid #db0303;
+}
+
+#prevButton i {
+    color: #ffffff;
+    font-size: 60px;
+    transition: .4s;
+}
+
+#prevButton i:hover {
+    transform: scale(1.1);
+    background-color: #000;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#motions2 {
+    margin-left: -140px;
+    margin-top: -710px;
+}
+
+#motions3 {
+    margin-left: 47vw;
+    margin-top: -720px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+/* ----------------------- */
+
+
+
+.page-more {
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 280px;
+}
+
+.page-more h1 {
+    font-size: 80px;
+    color: #e20505;
+}
+
+.page-more p {
+    font-size: 20px;
+    margin-top: 90px;
+    line-height: 35px;
+}
+
+.collab {
+    width: 100%;
+    height: 90vh;
+    gap: 10px;
+    text-align: center;
+    margin-top: 130px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.collab h1 {
+    font-size: 60px;
+    color: #e20505;
+}
+
+.cards-colb {
+    margin: 90px 290px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.cardclb1 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/francsc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb2 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/clauss.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb3 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/varane.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb4 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/simo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb1 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb1 h3 {
+    font-size: 25px;
+}
+
+.cardclb2 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb2 h3 {
+    font-size: 25px;
+}
+
+.cardclb3 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb3 h3 {
+    font-size: 25px;
+}
+
+.cardclb4 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb4 h3 {
+    font-size: 25px;
+}
+
+
+.collab {
+    width: 100%;
+    height: 150vh;
+    gap: 10px;
+    text-align: center;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.cards-colb2 {
+    margin: 0px 290px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 50px;
+}
+
+.cardclb5 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/silv.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb6 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/sport.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb7 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/media-pars.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb8 {
+    width: 280px;
+    height: 50vh;
+    background-color: #e20505;
+    border-radius: 5px;
+    background-image: url('assets/imgs-collabrs/edits/team-of-mali.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardclb5 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb5 h3 {
+    font-size: 25px;
+}
+
+.cardclb6 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb6 h3 {
+    font-size: 25px;
+}
+
+.cardclb7 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb7 h3 {
+    font-size: 25px;
+}
+
+.cardclb8 h1 {
+    font-size: 45px;
+    margin-top: 320px;
+}
+
+.cardclb8 h3 {
+    font-size: 25px;
+}
+
+.forms {
+    width: 100%;
+    height: 70vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #414141;
+    margin-top: 70px;
+}
+
+.forms h1 {
+    margin-top: 90px;
+    font-size: 70px;
+}
+
+.formdiv1 {
+    width: 30vw;
+    height: 4vh;
+    background-color: #fff;
+    margin-top: 90px;
+}
+
+.formdiv2 {
+    width: 30vw;
+    height: 4vh;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.formdiv3 {
+    width: 30vw;
+    height: 9vh;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.forms button {
+    width: 30vw;
+    height: 4vh;
+    background-color: #e20505;
+    border: none;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.forms a:hover {
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #e20505;
+}
+
+.text-footer {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 130px;
+}
+
+/*---------- ANIMATION SCROLL WITH JS (CSS PART)-----------------*/
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(7px);
+    transform: translateY(45%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+    transform: translateY(0);
+}
+
+
+/*---------- << END >> -----------------*/
+
+
+
+/* -------- Responsive Design -------- */
+
+@media screen and (max-width: 820px) {
+
+    ul,
+    li {
+        font-size: 15px;
+        gap: 30px;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .logo-header {
+        margin-left: -10px;
+    }
+
+    .button-header {
+        font-size: 15px;
+        height: 30px;
+        width: 100px;
+    }
+
+
+    .infos-home {
+        margin-left: 70px;
+
+        & h1 {
+            font-size: 60px;
+        }
+    }
+
+    section .img-home {
+        margin-left: -110px;
+    }
+
+    .redes-sociais-home {
+        gap: 20px;
+    }
+
+    .divider {
+        gap: 50px;
+    }
+
+    .propos {
+        height: 70vh;
+        margin-top: 5vh;
+        gap: 30px;
+
+
+        & .text p {
+            font-size: 10px;
+        }
+    }
+
+    .video-home {
+        margin-right: 7vw;
+    }
+
+    .loffre {
+        margin-top: 200px;
+        height: 160vh;
+
+        & .cards {
+            gap: 40px;
+
+            & p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .arts {
+        width: 100%;
+        margin-top: 550px;
+        margin-left: 220px;
+
+        & img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    #banner2 {
+        width: 100%;
+        margin-top: -350px;
+        margin-left: 220px;
+
+        & img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    .motions {
+        height: 480px;
+        width: 320px;
+        margin-left: 150px;
+        margin-top: -980px;
+    }
+
+    .name-video {
+        font-size: 40px;
+        margin-top: -1100px;
+    }
+
+    #motions4 {
+        height: 480px;
+        width: 320px;
+        margin-left: 150px;
+        margin-top: -130vh;
+    }
+
+    .name-video2 {
+        font-size: 40px;
+        margin-top: -140vh;
+    }
+
+    .loffre button {
+        margin-top: 130vh;
+    }
+
+    .collab {
+        height: 110vh;
+    }
+
+    .cards-colb {
+        margin-left: 70px;
+
+        & .cardclb1,
+        .cardclb2,
+        .cardclb3,
+        .cardclb4 {
+            width: 170px;
+            height: 365px;
+
+            & h1 {
+                font-size: 30px;
+            }
+
+            & h3 {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .cards-colb2 {
+        margin-left: 110px;
+
+        & .cardclb5,
+        .cardclb6,
+        .cardclb7,
+        .cardclb8 {
+            width: 230px;
+            height: 365px;
+
+            & h1 {
+                font-size: 30px;
+            }
+
+            & h3 {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .page-more {
+        padding: 0 60px;
+
+        & h1 {
+            font-size: 70px;
+        }
+
+        & p {
+            font-size: 26px;
+        }
+    }
+
+    footer .text-footer {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo-header img {
+        width: 40px;
+        height: auto;
+    }
+
+    .languajes {
+        margin-left: 20px;
+
+        & .butt-lang {
+            height: 20px;
+        }
+    }
+
+    ul,
+    li {
+        font-size: 11px;
+        gap: 30px;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .infos-home {
+        margin-left: 25px;
+
+        & h1 {
+            font-size: 37px;
+        }
+
+        & button {
+            width: 250px;
+            height: 40px;
+        }
+    }
+
+    section .img-home {
+        margin-left: -85vw;
+    }
+
+    .propos {
+        height: 140vh;
+        margin-top: 15vh;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+
+        & .text {
+            margin-left: 20px;
+        }
+
+        & h1 {
+            font-size: 40px;
+        }
+
+
+        & .text p {
+            font-size: 15px;
+        }
+
+    }
+
+    .video-home {
+        margin-top: -2vh;
+    }
+
+    #dvd-propos {
+        margin-top: 100px;
+    }
+
+    .divider {
+        gap: 30px;
+        margin: 0 40px;
+    }
+
+    .loffre {
+        height: 270vh;
+        padding: 0 40px;
+
+        & h1 {
+            font-size: 50px;
+        }
+
+        & .cards {
+            gap: 0 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 90px;
+
+            & p {
+                font-size: 12px;
+            }
+
+            & .card1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & p {
+                    width: 100%;
+                    text-align: left;
+                    text-justify: distribute;
+
+                }
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card3 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card4 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+        }
+    }
+
+    #nextButton {
+        margin-top: 170vh;
+        width: 80px;
+    }
+
+    #prevButton {
+        margin-top: 170vh;
+        width: 80px;
+    }
+
+    .arts {
+        margin-top: 200px;
+    }
+
+    #banner2 {
+        margin-top: -104vh;
+    }
+
+    .motions {
+        margin-left: -70px;
+    }
+
+    .name-video {
+        margin-left: -70px;
+    }
+
+    #motions4 {
+        margin-left: -65px;
+        margin-top: -115vh;
+    }
+
+    .name-video2 {
+        margin-left: -70px;
+        margin-top: -1300px;
+    }
+
+    .loffre button {
+        margin-top: 240vh;
+        width: 310px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .collab {
+        height: 280vh;
+    }
+
+    .cards-colb {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb1,
+        .cardclb2,
+        .cardclb3,
+        .cardclb4 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+
+    .cards-colb2 {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb5,
+        .cardclb6,
+        .cardclb7,
+        .cardclb8 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+
+    .page-more {
+        & h1 {
+            font-size: 55px;
+        }
+
+        & p {
+            font-size: 20px;
+            line-height: normal;
+        }
+    }
+
+    .forms h1 {
+        font-size: 50px;
+    }
+
+    .text-footer {
+        font-size: 15px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .logo-header img {
+        width: 30px;
+        height: auto;
+    }
+
+    .languajes {
+        margin-left: 20px;
+
+        & .butt-lang {
+            height: 20px;
+        }
+    }
+
+    ul,
+    li {
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .infos-home {
+        margin-left: 25px;
+
+        & h1 {
+            font-size: 37px;
+        }
+
+        & button {
+            width: 250px;
+            height: 40px;
+        }
+    }
+
+    section .img-home {
+        margin-left: -100vw;
+    }
+
+    .propos {
+        height: 140vh;
+        margin-top: 15vh;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+
+        & .text {
+            margin-left: 20px;
+        }
+
+        & h1 {
+            font-size: 35px;
+        }
+
+
+        & .text p {
+            font-size: 10px;
+        }
+
+    }
+
+    .video-home {
+        margin-top: -2vh;
+    }
+
+    #dvd-propos {
+        margin-top: 100px;
+    }
+
+    .divider {
+        gap: 30px;
+        margin: 0 40px;
+    }
+
+    .loffre {
+        height: 300vh;
+        padding: 0 40px;
+
+        & h1 {
+            font-size: 40px;
+        }
+
+        & .cards {
+            gap: 0 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 90px;
+
+            & p {
+                font-size: 12px;
+            }
+
+            & .card1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & p {
+                    width: 100%;
+                    text-align: left;
+                    text-justify: distribute;
+
+                }
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card3 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card4 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+        }
+    }
+
+    #nextButton {
+        margin-top: 200vh;
+        width: 90px;
+        height: 50px;
+        margin-right: 30px;
+
+        & i {
+            font-size: 40px;
+        }
+    }
+
+    #prevButton {
+        margin-top: 200vh;
+        width: 90px;
+        height: 50px;
+        margin-left: -310px;
+
+        & i {
+            font-size: 40px;
+        }
+    }
+
+    .arts {
+        margin-top: 200px;
+        margin-left: 140px;
+    }
+
+    #banner2 {
+        margin-top: -114vh;
+        margin-left: 150px;
+    }
+
+
+    .motions {
+        margin-left: -50px;
+        height: 440px;
+    }
+
+    .name-video {
+        margin-left: -50px;
+        font-size: 30px;
+    }
+
+    #motions4 {
+        margin-left: -55px;
+        margin-top: -125vh;
+
+    }
+
+    .name-video2 {
+        margin-left: -70px;
+        margin-top: -1300px;
+        font-size: 30px;
+    }
+
+    .loffre button {
+        margin-top: 270vh;
+        width: 310px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .collab {
+        height: 290vh;
+
+        & h1 {
+            font-size: 50px;
+        }
+    }
+
+    .cards-colb {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb1,
+        .cardclb2,
+        .cardclb3,
+        .cardclb4 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+
+    .cards-colb2 {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb5,
+        .cardclb6,
+        .cardclb7,
+        .cardclb8 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+
+    .page-more {
+        & h1 {
+            font-size: 55px;
+        }
+
+        & p {
+            font-size: 20px;
+            line-height: normal;
+        }
+    }
+
+    .forms h1 {
+        font-size: 50px;
+    }
+
+    .motions {
+        margin-left: -50px;
+        height: 440px;
+    }
+
+    .name-video {
+        margin-left: -50px;
+        font-size: 30px;
+    }
+
+    #motions4 {
+        margin-left: -55px;
+        margin-top: -125vh;
+
+    }
+
+    .name-video2 {
+        margin-left: -70px;
+        margin-top: -1300px;
+        font-size: 30px;
+    }
+
+    .loffre button {
+        margin-top: 270vh;
+        width: 310px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .collab {
+        height: 293vh;
+
+        & h1 {
+            font-size: 50px;
+        }
+    }
+
+    .cards-colb {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb1,
+        .cardclb2,
+        .cardclb3,
+        .cardclb4 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+
+    .cards-colb2 {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb5,
+        .cardclb6,
+        .cardclb7,
+        .cardclb8 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 25px;
+                text-align: left;
+            }
+        }
+    }
+
+    #dvd-collab {
+        margin-top: 30vh;
+    }
+
+    .page-more {
+        & h1 {
+            font-size: 45px;
+        }
+
+        & p {
+            font-size: 15px;
+            line-height: normal;
+        }
+    }
+
+    .forms h1 {
+        font-size: 50px;
+    }
+
+    footer {
+        padding: 0 20px;
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .logo-header img {
+        width: 30px;
+        height: auto;
+    }
+
+    .languajes {
+        margin-left: 20px;
+
+        & .butt-lang {
+            height: 10px;
+        }
+    }
+
+    ul,
+    li {
+        font-size: 10px;
+        gap: 14px;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .infos-home {
+        margin-left: 25px;
+
+        & h1 {
+            font-size: 30px;
+        }
+
+        & span {
+            font-size: 25px;
+        }
+
+        & button {
+            width: 250px;
+            height: 40px;
+        }
+    }
+
+    .redes-sociais-home i {
+        font-size: 20px;
+    }
+
+    section .img-home {
+        margin-left: -120vw;
+    }
+
+    .propos {
+        height: 140vh;
+        margin-top: 15vh;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+
+        & .text {
+            margin-left: 20px;
+        }
+
+        & h1 {
+            font-size: 30px;
+        }
+
+
+        & .text p {
+            font-size: 10px;
+        }
+
+    }
+
+    .video-home {
+        margin-top: -2vh;
+        margin-left: 50px;
+    }
+
+    #dvd-propos {
+        margin-top: 100px;
+    }
+
+    .divider {
+        gap: 30px;
+        margin: 0 40px;
+    }
+
+    .loffre {
+        height: 320vh;
+        padding: 0 40px;
+
+        & h1 {
+            font-size: 40px;
+        }
+
+        & .cards {
+            gap: 0 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 90px;
+
+            & p {
+                font-size: 12px;
+            }
+
+            & .card1 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & p {
+                    width: 100%;
+                    text-align: left;
+                    text-justify: distribute;
+
+                }
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card3 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+
+            & .card4 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0 50px;
+
+                & i {
+                    display: flex;
+                    position: absolute;
+                    margin-left: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+        }
+    }
+
+    #nextButton {
+        margin-top: 210vh;
+        width: 70px;
+        height: 50px;
+        margin-right: 30px;
+
+        & i {
+            font-size: 40px;
+        }
+    }
+
+    #prevButton {
+        margin-top: 210vh;
+        width: 70px;
+        height: 50px;
+        margin-left: -310px;
+
+        & i {
+            font-size: 40px;
+        }
+    }
+
+    .arts {
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    #banner2 {
+        margin-top: -124vh;
+        margin-left: 100px;
+    }
+
+
+    .motions {
+        margin-left: -50px;
+        height: 440px;
+    }
+
+    .name-video {
+        margin-left: -50px;
+        font-size: 30px;
+    }
+
+    #motions4 {
+        margin-left: -50px;
+        margin-top: -1200px;
+    }
+
+    .name-video2 {
+        margin-left: -50px;
+        margin-top: -1300px;
+        font-size: 30px;
+    }
+
+    .loffre button {
+        margin-top: 290vh;
+        width: 310px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .collab {
+        height: 310vh;
+
+        & h1 {
+            font-size: 50px;
+        }
+    }
+
+    .cards-colb {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb1,
+        .cardclb2,
+        .cardclb3,
+        .cardclb4 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 170px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 160%;
+                margin-top: 15px;
+                margin-left: 170px;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+    }
+
+    .cards-colb2 {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+
+        & .cardclb5,
+        .cardclb6,
+        .cardclb7,
+        .cardclb8 {
+            width: 140px;
+            height: 265px;
+
+            & h1 {
+                font-size: 25px;
+                margin-left: 190px;
+                margin-top: -5px;
+            }
+
+            & h3 {
+                width: 60%;
+                margin-top: 15px;
+                margin-left: 190px;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+    }
+
+    .page-more {
+        & h1 {
+            font-size: 40px;
+        }
+
+        & p {
+            font-size: 15px;
+            line-height: normal;
+        }
+    }
+
+    .forms h1 {
+        font-size: 50px;
+    }
+
+
+
+    #dvd-collab {
+        margin-top: 30vh;
+    }
+
+
+    footer p {
+        font-size: 12px;
+    }
+}
