@@ -586,6 +586,7 @@ section .img-home {
     flex-direction: column;
     text-align: center;
     margin-top: 280px;
+    padding: 0 20px;
 }
 
 .page-more h1 {
