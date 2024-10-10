@@ -2208,3 +2208,72 @@ footer {
         font-size: 12px;
     }
 }
+
+@media screen and (min-width: 200px) and (max-width: 389px) {
+    .video-home {
+        margin-top: 2vh;
+        margin-left: 30px;
+    }
+
+    .loffre {
+        width: 100%;
+
+        & h1 {
+            font-size: 35px;
+        }
+    }
+
+    #nextButton {
+        margin-top: 300vh;
+    }
+
+    #prevButton {
+        margin-top: 300vh;
+        margin-left: -280px;
+    }
+
+    #banner2 {
+        margin-top: -140vh;
+    }
+
+    .motions {
+        margin-top: -140vh;
+        margin-left: -60px;
+    }
+
+    .name-video {
+        font-size: 30px;
+        margin-top: -155vh;
+    }
+
+    #motions4 {
+        margin-top: -165vh;
+        margin-left: -60px;
+    }
+
+    .name-video2 {
+        margin-top: -180vh;
+    }
+
+    #botaolof {
+        margin-top: 400vh;
+    }
+
+    .collab {
+        height: 377vh;
+    }
+
+    .page-more {
+        width: 100%;
+        margin-top: 120px;
+
+        & h1 {
+
+            font-size: 45px;
+        }
+
+        & p {
+            font-size: 15px;
+        }
+    }
+}
